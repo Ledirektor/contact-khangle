@@ -1,5 +1,5 @@
  .u-section-1 {
-  --color-var: #fcc806;
+  --color-var: #FCC10A;
 }
 
 .u-section-1 .u-sheet-1 {
@@ -156,4 +156,18 @@
   .u-section-1 .u-btn-4 {
     margin-left: 25px;
   }
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FCC10A; /* Màu vàng bạn đang dùng */
+}
+
+.u-section-1 {
+  background-color: #FCC10A; /* Đảm bảo section chính cũng vàng */
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 100vh; /* Chiều cao tối thiểu = chiều cao toàn màn hình */
 }
